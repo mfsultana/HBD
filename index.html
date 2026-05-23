@@ -3,13 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Rundown Poster</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Deep Talk Rundown - Firdaus & Virda</title>
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="poster-container">
+    <div id="intro-screen" class="intro-container">
+        <div class="intro-card">
+            
+            <div class="photo-frame">
+                <img src="masukkan-link-foto-kalian-disini.jpg" alt="Foto Kami">
+            </div>
+
+            <h2>Are You Ready?</h2>
+            <p>Firdaus & Virda</p>
+
+            <button id="btn-masuk" class="btn-masuk">Lihat Rundown</button>
+
+        </div>
+    </div>
+
+    <div id="rundown-screen" class="poster-container hidden">
         <div class="poster-card">
             
             <header class="header">
@@ -50,5 +67,6 @@
         </div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
